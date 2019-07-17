@@ -1,0 +1,208 @@
+div.wrapper {
+  height: 100vh;
+  width: 100vw;
+}
+
+div.wrapper div.img {
+  width: 50%;
+  height: 100vh;
+  background-color: white;
+  display: inline-block;
+  float: left;
+  transition: 0.5s;
+}
+
+div.wrapper div.img:hover {
+  transition: 0.5s;
+  -webkit-box-shadow: 13px 0px 39px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 13px 0px 39px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 13px 0px 39px 0px rgba(0, 0, 0, 0.75);
+}
+
+div.wrapper div.img div.header {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  width: 50vw;
+  height: 10vh;
+  background-color: white;
+  text-align: center;
+}
+
+div.wrapper div.img div.header img {
+  height: 100px;
+}
+
+div.wrapper div.img div.footer_ {
+  position: relative;
+  bottom: 75px;
+  height: 30px;
+  margin: auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+div.wrapper div.img div.footer_ div.social_media {
+  height: 30px;
+  display: flex;
+  align-items: center;
+  border: 1px solid #80808045;
+  border-radius: 7px;
+  padding: 4px;
+}
+
+div.wrapper div.img div.footer_ div.social_media ul {
+  text-align: center;
+  padding: 0;
+}
+
+div.wrapper div.img div.footer_ div.social_media ul li {
+  list-style-type: none;
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+div.wrapper div.img div.footer_ div.social_media ul li a i.fa-linkedin {
+  font-size: 30px;
+  color: #0084bf;
+}
+
+div.wrapper div.img div.footer_ div.social_media ul li a i.fa-twitter-square {
+  font-size: 30px;
+  color: #1da1f2;
+}
+
+div.wrapper div.img div.footer_ div.social_media ul li a i.fa-facebook-square {
+  font-size: 30px;
+  color: #3b5998;
+}
+
+div.wrapper div.img div.footer_ div.social_media ul li a i.fa-instagram {
+  font-size: 30px;
+  color: #e95950;
+}
+
+div.wrapper div.img div.line {
+  height: 5px;
+  width: 2px;
+  background-color: red;
+  position: relative;
+  top: 50%;
+  left: 23%;
+  display: none;
+}
+
+div.wrapper div.app_photo {
+  height: 80vh;
+}
+
+div.wrapper div.app_photo h1 {
+  text-align: center;
+  letter-spacing: 2px;
+  color: #0d0d0d66;
+  margin-bottom: 65px;
+}
+
+div.wrapper div.app_photo div.images {
+  margin: auto;
+  width: 70%;
+}
+
+div.wrapper div.app_photo div.images .imgOne {
+  display: inline-block;
+  float: left;
+}
+
+div.wrapper div.app_photo div.images .imgOne img {
+  height: 350px;
+  border: 1px solid #8080804d;
+  border-radius: 5px;
+}
+
+div.wrapper div.app_photo div.images .imgTwo {
+  display: inline-block;
+  float: right;
+}
+
+div.wrapper div.app_photo div.images .imgTwo img {
+  height: 350px;
+  border: 1px solid #8080804d;
+  border-radius: 5px;
+}
+
+div.wrapper div.info {
+  display: inline-block;
+  width: 50%;
+  height: 100vh;
+  background-color: #0d0d0ddb;
+  float: right;
+  transition: 0.5s;
+}
+
+div.wrapper div.info:hover {
+  transition: 0.5s;
+  -webkit-box-shadow: -8px -1px 51px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -8px -1px 51px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: -8px -1px 51px 0px rgba(0, 0, 0, 0.75);
+}
+
+div.wrapper div.info div.work {
+  width: 100%;
+  text-align: center;
+  margin-top: 68px;
+  margin-bottom: 35px;
+}
+
+div.wrapper div.info div.work i {
+  font-size: 40px;
+  color: #BBBF49;
+}
+
+div.wrapper div.info div.app_text {
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+div.wrapper div.info div.app_text p {
+  color: white;
+  width: 70%;
+  margin: auto;
+  font-size: 17px;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  margin-bottom: 78px;
+}
+
+div.wrapper div.info div.loginimg {
+  text-align: center;
+}
+
+div.wrapper div.info div.loginimg img {
+  height: 350px;
+  border-radius: 5px;
+}
+
+div.wrapper div.info div.download {
+  text-align: center;
+  margin-top: 40px;
+}
+
+div.wrapper div.info div.download ul {
+  padding: 0;
+}
+
+div.wrapper div.info div.download ul li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+div.wrapper div.info div.download ul li:nth-child(1) a img {
+  height: 90px;
+}
+
+div.wrapper div.info div.download ul li:nth-child(2) a img {
+  height: 61px;
+  position: relative;
+  bottom: 15px;
+}
