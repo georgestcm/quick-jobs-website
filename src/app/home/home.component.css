@@ -14,7 +14,7 @@ div.wrapper div.img {
 }
 
 div.wrapper div.img div.header {
-  margin-top: 50px;
+  margin-top: 70px;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -43,11 +43,11 @@ div.wrapper div.img div.mockup div.images ul li img {
 }
 
 div.wrapper div.img div.mockup div.images ul li:nth-child(1) {
-  margin-right: 20px;
+  margin-right: 10px;
 }
 
 div.wrapper div.img div.mockup div.images ul li:nth-child(2) {
-  margin-left: 20px;
+  margin-left: 10px;
 }
 
 div.wrapper div.img div.footer_ {
@@ -100,18 +100,6 @@ div.wrapper div.img div.footer_ div.social_media ul li a i.fa-instagram {
   color: #e95950;
 }
 
-div.wrapper div.img div.company_logo {
-  display: none;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-  width: 100%;
-}
-
-div.wrapper div.img div.company_logo img {
-  height: 500px;
-}
-
 div.wrapper div.info {
   display: inline-block;
   width: 50%;
@@ -119,6 +107,7 @@ div.wrapper div.info {
   background-color: #0d0d0ddb;
   float: right;
   transition: 0.5s;
+  border-radius: 30px 0 0 30px;
 }
 
 div.wrapper div.info:hover {
@@ -133,6 +122,10 @@ div.wrapper div.info div.app_details {
   text-align: center;
 }
 
+div.wrapper div.info div.app_details div.work {
+  margin-top: 25px;
+}
+
 div.wrapper div.info div.app_details div.work i {
   margin-top: 50px;
   font-size: 60px;
@@ -145,6 +138,11 @@ div.wrapper div.info div.app_details div.work i:hover {
   color: #aebd43;
 }
 
+div.wrapper div.info div.app_details .mockup2 ul li {
+  position: relative;
+  bottom: 21px;
+}
+
 div.wrapper div.info div.app_info {
   margin-top: 30px;
 }
@@ -154,7 +152,7 @@ div.wrapper div.info div.app_info p {
   width: 60%;
   margin: auto;
   font-family: 'Lexend Deca', sans-serif;
-  font-size: 10px;
+  font-size: 13px;
   transition: 1s;
 }
 
@@ -163,52 +161,123 @@ div.wrapper div.info div.app_info p:hover {
   color: #aebd43;
 }
 
+div.wrapper div.info div.mockup2 ul {
+  padding: 0;
+  margin-top: 0;
+}
+
 div.wrapper div.info div.mockup2 ul li {
   list-style: none;
   display: inline-block;
-  margin-left: 25px;
 }
 
-div.wrapper div.info div.mockup2 ul li img {
-  height: 450px;
+div.wrapper div.info div.mockup2 ul li div video {
+  height: 440px;
+  width: 520px;
+  max-height: 440px;
+  max-width: 520px;
 }
 
-div.wrapper div.info div.mockup2 ul li:nth-child(2) {
-  display: none;
+div.wrapper div.info div.mockup2 ul li div video:focus {
+  outline: none;
 }
 
-div.wrapper div.info div.mockup2 ul li:nth-child(3) {
-  display: none;
-}
-
-div.wrapper div.info div.mockup2 ul li img {
-  height: 450px;
-  border-radius: 7px;
-  border: 1px solid #8080803d;
-}
-
-div.wrapper div.info div.app_stores ul {
+div.wrapper div.app_stores ul {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-div.wrapper div.info div.app_stores ul li {
+div.wrapper div.app_stores ul li {
   list-style: none;
   display: inline-block;
 }
 
-div.wrapper div.info div.app_stores ul li:nth-child(1) img {
+div.wrapper div.app_stores ul li:nth-child(1) img {
   height: 60px;
 }
 
-div.wrapper div.info div.app_stores ul li:nth-child(2) img {
+div.wrapper div.app_stores ul li:nth-child(2) img {
   height: 42px;
 }
 
-div.wrapper div.footer_two {
+div.footer_two {
   position: relative;
-  top: 0;
   text-align: center;
   color: grey;
+}
+
+@media screen and (max-width: 1100px) {
+  div.img {
+    display: block !important;
+    float: none !important;
+    width: 100% !important;
+    height: auto !important;
+    margin-bottom: 40px;
+  }
+  div.img div.header {
+    margin-top: 0 !important;
+  }
+  div.img div.mockup div.images ul li:nth-child(1) {
+    margin-right: 30px !important;
+  }
+  div.img div.mockup div.images ul li:nth-child(2) {
+    margin-left: 30px !important;
+  }
+  div.info {
+    display: block !important;
+    float: none !important;
+    border-radius: 0 !important;
+    width: 100% !important;
+    height: auto !important;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  div.img div.mockup div.images ul li:nth-child(1) {
+    margin-right: 15px !important;
+  }
+  div.img div.mockup div.images ul li:nth-child(2) {
+    margin-left: 15px !important;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  div.img {
+    margin-top: 25px;
+  }
+  div.img div.mockup .images ul li {
+    display: block !important;
+  }
+  div.img div.mockup .images ul li img {
+    height: 550px !important;
+  }
+  div.img div.mockup .images ul li:nth-child(1) {
+    position: relative;
+    left: 9px;
+  }
+  div.img div.mockup .images ul li:nth-child(2) {
+    margin-top: 12px;
+    position: relative;
+    right: 6px;
+  }
+  div.img div.mockup .images ul li:nth-child(2) img {
+    margin-top: 20px !important;
+  }
+  div.info {
+    box-shadow: none !important;
+  }
+  div.info .app_details .work {
+    display: none !important;
+  }
+  div.info .app_details .app_info p {
+    padding-top: 30px !important;
+  }
+  div.info .app_details .mockup2 ul li div video {
+    width: 300px !important;
+    height: 301px !important;
+  }
+  div.info .app_details .app_stores ul {
+    padding: 0;
+  }
 }
