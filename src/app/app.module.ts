@@ -10,6 +10,7 @@ import { PrivacyComponent } from './privacy/privacy.component';
 import { TermsComponent } from './terms/terms.component';
 import { NgxExtendedPdfViewerModule } from 'ngx-extended-pdf-viewer';
 import { Routes, RouterModule } from '@angular/router';
+import { ContactComponent } from './contact/contact.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,7 +19,8 @@ import { Routes, RouterModule } from '@angular/router';
     LoginComponent,
     PagenotfoundComponent,
     PrivacyComponent,
-    TermsComponent
+    TermsComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
