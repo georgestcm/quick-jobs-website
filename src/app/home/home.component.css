@@ -186,6 +186,7 @@ div.wrapper div.app_stores ul {
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 0;
 }
 
 div.wrapper div.app_stores ul li {
@@ -197,6 +198,10 @@ div.wrapper div.app_stores ul li:nth-child(1) img {
   height: 60px;
 }
 
+div.wrapper div.app_stores ul li:nth-child(2) {
+  display: none;
+}
+
 div.wrapper div.app_stores ul li:nth-child(2) img {
   height: 42px;
 }
@@ -204,6 +209,12 @@ div.wrapper div.app_stores ul li:nth-child(2) img {
 div.footer_two {
   position: relative;
   text-align: center;
+  color: grey;
+  bottom: 8px;
+}
+
+div.footer_two a {
+  text-decoration: none;
   color: grey;
 }
 

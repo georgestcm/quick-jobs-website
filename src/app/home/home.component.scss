@@ -176,6 +176,7 @@ div.app_stores {
     display: flex;
 align-items: center;
 justify-content: center;
+padding: 0;
     li {
       list-style: none;
       display: inline-block;
@@ -188,17 +189,20 @@ justify-content: center;
        img {
           height: 42px;
        }
+       display: none;
       }
     }
   }
 }
 }div.footer_two {
   position: relative;
-
 text-align:center;
 color: grey;
-
-
+bottom: 8px;
+a  {
+  text-decoration: none;
+  color: grey;
+}
 }
 
 
