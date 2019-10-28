@@ -198,10 +198,6 @@ div.wrapper div.app_stores ul li:nth-child(1) img {
   height: 60px;
 }
 
-div.wrapper div.app_stores ul li:nth-child(2) {
-  display: none;
-}
-
 div.wrapper div.app_stores ul li:nth-child(2) img {
   height: 42px;
 }
